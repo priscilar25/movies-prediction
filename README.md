@@ -1,6 +1,6 @@
 # Movies Prediction
 
-Este projeto utiliza Python (versão 3.13.5) para realizar predições relacionadas a filmes. Siga os passos abaixo para instalar as dependências e executar o projeto localmente.
+Este projeto utiliza Python (versão 3.13.5) para realizar predições relacionadas a filmes, com foco principal em notebooks Jupyter (`.ipynb`). Siga os passos abaixo para instalar as dependências e executar os notebooks do projeto localmente.
 
 ## Pré-requisitos
 
@@ -8,6 +8,8 @@ Este projeto utiliza Python (versão 3.13.5) para realizar predições relaciona
   Você pode baixar e instalar a versão mais recente do Python em [python.org](https://www.python.org/downloads/).
 
 - (Recomendado) [pip](https://pip.pypa.io/en/stable/) para gerenciamento de pacotes.
+
+- [Jupyter Notebook](https://jupyter.org/) para executar arquivos `.ipynb`.
 
 ## Instalação
 
@@ -28,32 +30,23 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-Instale as dependências do projeto:
-
-```bash
-pip install -r requirements.txt
-```
-
-Se o arquivo `requirements.txt` não existir, instale manualmente os pacotes necessários para seu script, por exemplo:
-
-```bash
-pip install pandas numpy scikit-learn
-```
-
 ## Como Executar
 
-Execute o(s) script(s) principal(is) do projeto. Exemplo:
+1. Inicie o Jupyter Notebook:
 
-```bash
-python main.py
-```
+   ```bash
+   jupyter notebook
+   ```
 
-ou substitua `main.py` pelo arquivo desejado.
+2. Abra o navegador que será exibido e selecione o arquivo `.ipynb` desejado (exemplo: `main.ipynb`).
+
+3. Execute as células do notebook para rodar o projeto.
 
 ## Observações
 
 - Certifique-se de estar usando a versão correta do Python (3.13.5) para evitar incompatibilidades.
-- Para customizar os parâmetros da execução, ajuste diretamente os arquivos `.ipynb` conforme necessário.
+- Para customizar os parâmetros de execução, ajuste diretamente os arquivos `.ipynb` conforme necessário.
+- Caso prefira, você pode executar os notebooks no [Google Colab](https://colab.research.google.com/) fazendo upload do arquivo `.ipynb`.
 
 ## Contribuição
 
