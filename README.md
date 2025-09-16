@@ -53,8 +53,7 @@ ou substitua `main.py` pelo arquivo desejado.
 ## Observações
 
 - Certifique-se de estar usando a versão correta do Python (3.13.5) para evitar incompatibilidades.
-- Caso encontre erros de dependências, verifique se todas estão listadas em `requirements.txt` ou instale-as manualmente.
-- Para customizar os parâmetros da execução, ajuste diretamente os arquivos `.py` conforme necessário.
+- Para customizar os parâmetros da execução, ajuste diretamente os arquivos `.ipynb` conforme necessário.
 
 ## Contribuição
 
