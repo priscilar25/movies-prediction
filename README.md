@@ -42,6 +42,12 @@ source venv/bin/activate
 
 3. Execute as células do notebook para rodar o projeto.
 
+## Instale as dependências do projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Observações
 
 - Certifique-se de estar usando a versão correta do Python (3.13.5) para evitar incompatibilidades.
